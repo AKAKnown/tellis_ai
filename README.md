@@ -104,10 +104,10 @@ signbridge_ai/
 │
 ├── assets/
 │   ├── screenshots/
-│   │   ├── app-home.png
-│   │   ├── app-camera.png
-│   │   ├── app-prediction.png
-│   │   └── app-result.png
+│   │   ├── app-home.jpg
+│   │   ├── app-camera.jpg
+│   │   ├── app-prediction.jpg
+│   │   └── app-result.jpg
 │   │
 │   ├── results/
 │   │   ├── accuracy-comparison.png
