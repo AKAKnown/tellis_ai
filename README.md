@@ -3,7 +3,7 @@
 <div align="center">
 
 <!-- Replace this banner with your own image if available -->
-<img src="./assets/presentation/slide-1.png" alt="SignBridge AI Banner" width="100%" />
+<img src="./assets/presentation/slide-9.png" alt="SignBridge AI Banner" width="100%" />
 
 <br />
 
@@ -133,10 +133,10 @@ signbridge_ai/
 ### Mobile Application
 
 <p align="center">
-  <img src="./assets/screenshots/app-home.png" width="22%" alt="App Home" />
-  <img src="./assets/screenshots/app-camera.png" width="22%" alt="Camera Screen" />
-  <img src="./assets/screenshots/app-prediction.png" width="22%" alt="Prediction Screen" />
-  <img src="./assets/screenshots/app-result.png" width="22%" alt="Result Screen" />
+  <img src="./assets/screenshots/app-home.jpg" width="22%" alt="App Home" />
+  <img src="./assets/screenshots/app-camera.jpg" width="22%" alt="Camera Screen" />
+  <img src="./assets/screenshots/app-prediction.jpg" width="22%" alt="Prediction Screen" />
+  <img src="./assets/screenshots/app-result.jpg" width="22%" alt="Result Screen" />
 </p>
 
 ### Model Results
@@ -162,8 +162,24 @@ signbridge_ai/
 
 ## Dataset
 
-The dataset contains RGB images for five Arabic Sign Language letters.
+RGB Arabic Alphabets Sign Language Dataset
 
+Dataset link:
+https://www.kaggle.com/datasets/muhammadalbrham/rgb-arabic-alphabets-sign-language-dataset
+
+The dataset is not included directly in this repository because of GitHub file size limitations.
+Please download the dataset from Kaggle and place it in Google Drive using one of the following structures:
+
+MyDrive/signbridge_ai/RGB ArSL dataset
+
+or:
+
+MyDrive/signbridge_ai/dataset/RGB ArSL dataset
+
+The Colab notebook is designed to automatically search for the dataset folder in the expected locations.
+
+The dataset contains RGB images for five Arabic Sign Language letters.
+--
 | Class | Arabic Letter | Number of Images |
 |------:|:-------------:|-----------------:|
 | Alef  | ا | 287 |
